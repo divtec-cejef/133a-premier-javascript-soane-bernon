@@ -9,6 +9,6 @@
 
 // recuperer tous les paragraphe du document
 let tabPara = document.querySelectorAll("p");
-
+let btAjouter = document.querySelector("button.ajouter");
 // Affiche le contenu des variables dans la console
-console.log(tabPara);
+console.log(tabPara, btAjouter);
