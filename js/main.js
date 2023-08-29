@@ -7,7 +7,8 @@
 
 "use strict";
 
-let msg = "Bonjour";
-if (msg == "pierre" || msg == "Bonjour")
-    msg = "SALAMALEKOUM";
-console.log(msg);
+// recuperer tous les paragraphe du document
+let tabPara = document.querySelectorAll("p");
+
+// Affiche le contenu des variables dans la console
+console.log(tabPara);
